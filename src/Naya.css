@@ -1,0 +1,122 @@
+.navbar {
+    /* Layout */
+    box-sizing:border-box;
+    padding: 15px 17px;
+     
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /* UI properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #0000001A;
+    opacity: 1;
+    }
+
+    .search {
+        size: 2rem;
+        display: flex;
+        align-items: center;
+        background-color: #FFA500;
+        border-radius: 20px;
+        padding: 5px;
+        margin-left: 0px;
+        width: 36px;
+        height: 36px;
+    }
+    .inputsearch {
+        padding-right: 1px !important;
+        width: 525px;
+        height: 40px;
+        border-radius: 48px;
+        margin-top: 5px; 
+        margin-left: 3rem;
+        padding: 11px 18px;
+        outline: none;
+        border: 0.5px solid #9C9D9D;
+    }
+    
+    .navbar .rectangle {
+        width: 50px;
+        height: 50px;
+        padding: 14px 12px;
+        cursor: pointer;
+    }
+
+    .logo {
+        margin-left: 9px;
+        
+        cursor: pointer;
+        /* margin-bottom: 12px; */
+    }
+
+     .icon{
+          margin-left: 2.3rem;
+     }
+     .icons {
+         padding-left: 4rem;
+     }
+     
+
+
+
+    @media only screen and (max-width: 1366px){
+
+        .search{
+            display: none;
+        }
+        .icons{
+           padding-left: 4rem; 
+        }
+        .icon{
+            margin-left: 4px;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        #hide-content {
+            display: none;
+        }
+        .inputsearch {
+             width: 400px;
+        }
+        .search{
+            display: none;
+        }
+        .icons{
+            padding-left: 0px;
+        }
+        .icon {
+            margin-left: 1.2rem;
+        }
+    
+    }
+    
+    @media only screen and (max-width: 768px) {
+        
+        .inputsearch {
+            width: 284px;
+            margin-left: 1rem;
+        }
+        
+        .inputsearch ::placeholder {
+            text-align: left;
+            font: normal normal normal 14px/21px Calibri;
+        }
+        .search{
+            display: none;
+        }
+         
+    }
+    
+    @media only screen and (max-width: 376px) {
+        /* logo and inputbar */
+        .hide-content {
+            display: none;
+        }
+        
+    
+        
+        .inputsearch {
+            display: none;
+        }
+    }

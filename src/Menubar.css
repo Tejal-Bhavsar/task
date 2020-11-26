@@ -1,0 +1,94 @@
+*{
+    box-sizing:border-box;
+}
+.menubar {
+/* Layout */
+box-sizing:border-box;
+padding: 15px 17px;
+height: 80px;
+display: flex;
+align-items: center;
+/* UI properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 20px #0000001A;
+opacity: 1;
+}
+
+.inputsearch {
+    padding-right: 1px !important;
+    width: 32.81rem;
+    height: 40px;
+    border-radius: 48px;
+    margin-top: 5px; 
+    padding: 11px 18px;
+    outline: none;
+    border: 0.5px solid #9C9D9D;
+}
+.inputsearch  placeholder{
+    padding-right: 0px;
+    width: 39px;
+    height: 15px; 
+    font:   Calibri;
+    letter-spacing: 0px;
+    color: #9C9D9D;
+    opacity: 1;
+}
+
+.inputsearch .paper {
+    background-color: #FFA500;
+    width: 36px;
+    height: 36px;
+    border-radius: 21px;
+}
+.search {
+    size: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: #FFA500;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 0px;
+    width: 36px;
+    height: 36px;
+}
+.menubar .rectangle {
+    width: 50px;
+    height: 50px;
+    padding: 14px 12px;
+    cursor: pointer;
+}
+ .logo {
+    margin-left: 9px;
+    margin-bottom: 7px;
+    /* margin-bottom: 12px; */
+}
+
+/* .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15px;
+    left: 17px;
+    width: 50px;
+    height: 50px;
+}
+
+.options-menu {
+
+    top: 29px;
+    left: 29px;
+    width: 26px;
+    height: 22px;
+} */
+
+.person {
+    width: 24px;
+    height: 25px;
+}
+
+@media only screen and (max-width: 768px){
+    .inputsearch {
+        display: none;
+       
+    }
+}
