@@ -16,7 +16,7 @@ export default function Naya() {
     return (
         <div>
             <nav class="navbar row navbar-expand-lg navbar-light">
-                <div className="col-xs-2">
+                <div className="col-xl-3 col-md-2 col-lg-3 col-2">
                     <ul className="navbar-nav">
                      <li> <img className="rectangle" src={options} /> </li>
                      <li>   
@@ -24,7 +24,7 @@ export default function Naya() {
                      </li>
                     </ul>
                 </div>
-                <div className="hide-content col-md-6 ">
+                <div className="hide-content col-xl-6 col-lg-6 col-md-6 ">
                   <InputBase 
                      
                     className="inputsearch"
@@ -34,7 +34,8 @@ export default function Naya() {
                     />
                      
                 </div>
-                <div className="col-xs-10">
+                <div className="col-xl-3 col-lg-3 col-md-4  col-10
+                icons ">
                   <SearchIcon  className="search  icon d-lg-none d-md-none d-sm-none d-lg-none"/>
                   <PersonSharpIcon className="icon" fontSize="medium" />
                   <DescriptionIcon className="icon"  />

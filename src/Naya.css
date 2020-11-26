@@ -108,13 +108,15 @@
          
     }
     
-    @media only screen and (max-width: 376px) {
+    @media only screen and (min-device-width : 220px) and (max-device-width : 375px) {
         /* logo and inputbar */
         .hide-content {
             display: none;
         }
         
-    
+        .icons {
+            padding-left: 3rem;
+        }
         
         .inputsearch {
             display: none;

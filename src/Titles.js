@@ -4,7 +4,9 @@ import './Titles.css'
 export default function Titles() {
     return (
         <div>
-            
+            <div className="title">
+                
+            </div>
         </div>
     )
 }
