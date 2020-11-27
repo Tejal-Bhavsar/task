@@ -1,0 +1,45 @@
+body {
+    background-color: #E5E2DF;
+    
+}
+
+.row {
+    padding: 18px;
+}
+.main {
+    padding: 2rem;
+}
+.cards {
+     
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.cards p {
+     
+    width: 235px;
+    height: 40px;
+    /* margin-right: 3rem; */
+}
+
+span img{
+    width: 1.2rem;
+}
+ .first {
+   display: flex;
+}
+.second {
+    display: flex;
+}
+.first img{
+    width: 64px;
+    height: 52px;
+}
+
+.cards p {
+    font-size: 16px;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
