@@ -1,0 +1,19 @@
+ 
+.input-group  {
+    margin-left: 1.5rem;
+}
+.addon{
+    outline: none;
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    width: 38px;
+    background-color: #E0E0E0;
+}
+
+ 

@@ -5,17 +5,20 @@ body {
 
 .row {
     padding: 18px;
+    margin-top: 2rem;
 }
-.main {
-    padding: 2rem;
+.main1 {
+    margin-top: 2rem;
+     
 }
 .cards {
-    margin-bottom: 2rem;
+    padding: 2rem;
     overflow: hidden;
     background-color: #fff;
 }
 
 .cards p {
+     
     width: 235px;
     height: 40px;
     /* margin-right: 3rem; */
