@@ -10,12 +10,12 @@ export default function CardC() {
                 <div className="row">
                      <div className="col-xl-3 col-lg-3 first">
                         <p><u>Continental PremiumContact™ 6</u></p>
-                        <img src={logofinal} />
+                        <img className="logofinal" src={logofinal} />
                     </div>
                     <div className="col-xl-3 col-lg-3 second">
                         <p>195/55 R15 85V<br />
                         SUV</p>
-                        <small>stock<span><img  src="https://w7.pngwing.com/pngs/182/570/png-transparent-computer-icons-button-cross-on-a-red-circle-logo-sign-area.png" /></span> Back in 1week!</small>
+                        <small>stock<span><img  src="https://w7.pngwing.com/pngs/182/570/png-transparent-computer-icons-button-cross-on-a-red-circle-logo-sign-area.png" /></span> <span style={{color:"red"}}>Back in 1week!</span></small>
                     </div>
                     <div className="col-xl-3 col-lg-3 third">
                         <small>Price ₪340</small>
