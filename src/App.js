@@ -5,15 +5,17 @@ import Naya from './Naya'
 import Titles from './Titles'
 import Cards from './Cards'
 import Plusminus from './Plusminus'
+import New from './New'
 
 function App() {
   return (
     <div>
        {/* <Menubar /> */}
        {/* <Navbar /> */}
-       <Naya />
-       <Titles />
-       <Cards />
+        <Naya />
+        <Titles />
+       {/* <Cards /> */} 
+       {/* <New /> */}
         
       
     </div>

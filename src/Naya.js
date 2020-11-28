@@ -20,7 +20,7 @@ export default function Naya() {
                     <ul className="navbar-nav">
                      <li> <img className="rectangle" src={options} /> </li>
                      <li>   
-                         <img className="logo" id="hide-content" src={logo} alt="" loading="lazy"/>   
+                         <img className="logok" id="hide-content" src={logo} alt="" loading="lazy"/>   
                      </li>
                     </ul>
                 </div>

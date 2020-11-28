@@ -4,7 +4,7 @@ body {
 }
 
 .row {
-    padding: 18px;
+    padding: 9px !important;
 }
 .main {
     padding: 2rem;
@@ -54,4 +54,9 @@ span img{
 sup {
     vertical-align: super;
     font-size: smaller;
+}
+
+.btn-primary{
+    background-color:#E0E0E0 ;
+    border: 1px solid #000000 ;
 }

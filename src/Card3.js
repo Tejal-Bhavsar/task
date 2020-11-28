@@ -25,7 +25,7 @@ export default function Card3() {
                 </div>
                 <div className="col-xl-3 col-lg-3 forth">
                     <p>Total $1,1360</p>
-                    <p><button type="button" class="btn btn-outline-warning"><img src={notify} /><smaller>Notify Me!</smaller></button></p>
+                    <p><button type="button" class="btn btn-outline-warning"><img src={notify} /><h6 className="hiden">Notify Me!</h6></button></p>
                 </div>
             </div>
         </div>

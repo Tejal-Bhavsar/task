@@ -1,9 +1,16 @@
  
-.titles {
-    padding: 2rem;
+body {
+    font-size: 12px;
 }
-.title {
+.titles {
+    padding: 2rem 2rem 0rem 2rem;
+}
+/* .title {
     margin-bottom: 2rem;
+} */
+
+.continent {
+    height: 68px;
 }
 
 .titles h4 {
@@ -14,16 +21,21 @@
     
     height: 28px;
 }
-.filters p {
-    
-    text-align: left;
+ .italic    {
+    font-size: 16px;
+    font-family: Calibri; 
+    font-style: italic;
     font-size: 0.5em;
     font-family: Calibri Regular;
     letter-spacing: 0px;
     color: #363636;
     opacity: 1;
 }
-.btn {
+.btn-outline-dark {
+    font-size: 16px;
+    font-family: Calibri; 
+    font-weight: 600;
+    font-style: italic;
     border: 0.5 solid black;
     border-radius: 26px;
     color: black;
@@ -55,8 +67,22 @@
     color: black;
     border: 1px solid black;
 }
+
+@media only screen and (max-width: 768px){
+     
+}
 @media only screen and (max-width: 376px) {
+    .titles {
+        padding: 18px !important;
+    }
+    
     .hide {
         display: none;
+    }
+    h4 {
+        font-size: 20px !important;
+    }
+    .main {
+        padding: 18px !important;
     }
 }
