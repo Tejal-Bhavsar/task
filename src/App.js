@@ -14,7 +14,7 @@ function App() {
        {/* <Navbar /> */}
         <Naya />
         <Titles />
-       {/* <Cards /> */} 
+       <Cards /> 
        {/* <New /> */}
         
       

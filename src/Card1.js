@@ -2,8 +2,9 @@ import React from 'react'
 import logofinal from './asset/logofinal.svg'
 import Plusminus from './Plusminus'
 import cart from './asset/cart-sharp.svg'
-import './Card1.css'
-import {TextField} from '@material-ui/core'
+ 
+ 
+
 
 export default function Card1() {
     return (
