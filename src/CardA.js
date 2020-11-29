@@ -7,7 +7,7 @@ import cart from './asset/cart-sharp.svg'
 export default function CardA() {
     return (
         <div>
-            {/* <div className="cards container-fluid mobile">
+            <div className="cards container-fluid mobile">
                 <div className="row">
                      <div className="col-xl-3 col-lg-3 col-md-2 first">
                         <p><u>Continental PremiumContact™ 6</u></p>
@@ -27,7 +27,7 @@ export default function CardA() {
                          <button type="button" class="btn btn-warning"><img  className="cart" src={cart} /><i className="hiden">Add to Cart</i></button>
                     </div>
                 </div>
-            </div> */}
+            </div>
             <div className="cards container-fluid show">
                 <div className="row guttor">
                      <div className="row col-md-6" id="firstcard">
@@ -69,7 +69,7 @@ export default function CardA() {
                      
                 </div>
             </div>
-            <div className="cards container-fluid">
+            <div className="cards container-fluid show">
                 <div className="row guttor">
                      <div className="row col-md-6" id="firstcard">
                             <div className="col-6">

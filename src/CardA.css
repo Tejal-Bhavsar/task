@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1366px) and (min-width: 770){
+@media only screen and (max-width: 1366px) and (min-width: 776){
     .show{
         display: none;
     }
@@ -7,6 +7,10 @@
 @media only screen and (max-width: 768px) and (min-width:377px ){
     .main{
         padding: 1rem 0.8rem 1rem 0.8rem;
+    }
+
+    .mobile{
+        display: none;
     }
     .guttor{
         grid-column-gap: 10px;
@@ -37,8 +41,11 @@
     }
 }
 
-@media only screen and (max-width: 377px) {
-   .cards{
+@media only screen and (max-width: 376px) {
+   .mobile {
+       display: none;
+   }
+    .cards{
        margin-bottom: 0px;
    }
     #firstcard{
