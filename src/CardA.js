@@ -14,7 +14,7 @@ export default function CardA() {
                         <img className="logofinal" src={logofinal} />
                     </div>
                     <div className="col-xl-3 col-lg-3 cpl-md-2 second">
-                        <p>195/55 R15 85V<br />
+                        <p className="suv">195/55 R15 85V<br />
                         SUV</p>
                         <small>stock<span><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPN3IQMKt9pvRLXTrcK55UqKIZRamkQ4h9Kw&usqp=CAU" /></span></small>
                     </div>
@@ -38,7 +38,7 @@ export default function CardA() {
                                 <Plusminus/>
                             </div>
                             <div className="col-6">
-                                <p>195/55 R15 85V<br />
+                                <p className="suv">195/55 R15 85V<br />
                                 SUV</p>
                                 <p className="detail"><i>Price   Total</i>
                                     <span style={{fontSize:"16px"}}><b>₪2,312</b></span>
@@ -56,7 +56,7 @@ export default function CardA() {
                                 <Plusminus/>
                             </div>
                             <div className="col-6">
-                                <p>195/55 R15 85V<br />
+                                <p className="suv">195/55 R15 85V<br />
                                 SUV</p>
                                 <p className="detail"><i>Price   Total</i>
                                     <span style={{fontSize:"16px"}}><b>₪2,312</b></span>
@@ -79,7 +79,7 @@ export default function CardA() {
                                 <Plusminus/>
                             </div>
                             <div className="col-6">
-                                <p>195/55 R15 85V<br />
+                                <p className="suv">195/55 R15 85V<br />
                                 SUV</p>
                                 <p className="detail"><i>Price   Total</i>
                                     <span style={{fontSize:"16px"}}><b>₪2,312</b></span>
@@ -97,7 +97,7 @@ export default function CardA() {
                                 <Plusminus/>
                             </div>
                             <div className="col-6">
-                                <p>195/55 R15 85V<br />
+                                <p className="suv">195/55 R15 85V<br />
                                 SUV</p>
                                 <p className="detail"><i>Price   Total</i>
                                     <span style={{fontSize:"16px"}}><b>₪2,312</b></span>
