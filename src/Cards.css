@@ -30,14 +30,12 @@ u {
 small{
     font-weight: bold;
 }
-.input-group {
-    padding-left: 2rem !important;
-}
+
 
 .cards {
     margin-bottom: 2rem;
     overflow: hidden;
-    background-color: #fff;
+   
 }
 
 .cards p {
@@ -108,7 +106,14 @@ span img{
    align-items: center;
 }
 
-@media only screen and (max-width: 1024px){
+
+@media only screen and (max-width: 1366px) and (min-width: 1026px){
+    .input-group {
+        padding-left: 2rem !important;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: px){
+    
     .main{
         padding: 1rem 0.7rem 1rem 0.7rem;
     }
@@ -141,4 +146,10 @@ span img{
    .btn-outline-warning {
        width: 77px;
    }
+}
+
+@media only screen and (max-width: 770px) and (min-width: 300px){
+    .mobile {
+         display: none;
+    }
 }

@@ -6,7 +6,7 @@ import cart from './asset/cart-sharp.svg'
 export default function CardA() {
     return (
         <div>
-            <div className="cards container-fluid">
+            <div className="cards container-fluid mobile">
                 <div className="row">
                      <div className="col-xl-3 col-lg-3 first">
                         <p><u>Continental PremiumContact™ 6</u></p>

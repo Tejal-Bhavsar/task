@@ -1,0 +1,91 @@
+.jumbotron {
+    background-color: white;
+     padding-left: 18px;
+      max-width:1306px; 
+      max-height: 80px;
+      font-family: Calibri; 
+      font-size: 16px;
+     font-style: italic;
+}
+table {
+    width: inherit;
+}
+td {
+    font-style: normal;
+}
+td p {
+    font-size: 14px;
+     font-style: normal;
+}
+
+.btn-shrink{
+    float:right;
+     background-color: #FFA500;
+      width: 152px;
+       height: 40; 
+       border: none;
+        padding: 7.73px; 
+        border-radius: 48px; 
+        font-size: 16px;
+         font-weight: bold;
+          font-family: Calibri;
+}
+@media only screen and (max-width: 768px) {
+    .navbar-size {
+        display: flex;
+    }
+    .search-bar-div {
+        width: 284px;
+    }
+    .jumb-lg {
+        display: none;
+    }
+    .jumb-sm {
+        display: block;
+    }
+    button {
+        margin-top: 1rem;
+    }
+    .xs-small-page {
+        display: flow-root;
+    }
+    .xs-search {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .xs-small-page {
+        display: none;
+    }
+    .jumb-sm {
+        max-width: max-content;
+    }
+    .col.mb-4 {
+        width: 100%
+    }
+    .search-bar-div {
+        display: none;
+    }
+    .xs-search {
+        display: block;
+    }
+}
+
+;
+.navbar-size {
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    padding: .5rem;
+}
+
+.card {
+    padding: 0.5rem;
+}

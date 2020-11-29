@@ -6,16 +6,21 @@ import Titles from './Titles'
 import Cards from './Cards'
 import Plusminus from './Plusminus'
 import New from './New'
+ 
+ 
 
 function App() {
   return (
     <div>
+
+      {/* <Mobile /> */}
        {/* <Menubar /> */}
        {/* <Navbar /> */}
-        <Naya />
+          <Naya />
         <Titles />
-       <Cards /> 
+       <Cards />   
        {/* <New /> */}
+       
         
       
     </div>
